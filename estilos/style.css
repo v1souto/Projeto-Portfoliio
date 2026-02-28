@@ -36,6 +36,9 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 nav#menu ul {
@@ -258,7 +261,7 @@ footer a {
 
 footer a:hover {
   color: var(--destaque-inverso);
-  
+
 }
 
 @media screen and (min-width: 768px) {
