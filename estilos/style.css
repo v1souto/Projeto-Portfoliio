@@ -37,6 +37,7 @@ body {
   background-color: var(--fundo-principal);
   color: var(--texto);
   transition: background-color 0.5s, color 0.5s;
+  overflow-x: hidden;
 }
 
 header {
@@ -299,6 +300,9 @@ footer a:hover {
   #projeto-container .projeto {
     flex-direction: row-reverse;
     justify-content: space-between;
+    width: 70vw;
+    height: 150px;
+    
   }
 }
 
